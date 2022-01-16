@@ -4,7 +4,7 @@
 
 //#include "gpio.h"
 #include "stm32l4xx_hal.h"
-//#include "main.h"
+#include "main.h"
 
 /* Pins configuration */
 #define NRF24L01_CE_LOW          HAL_GPIO_WritePin(GPIOA, NRF_CE_Pin, GPIO_PIN_RESET)
